@@ -1,0 +1,21 @@
+streamlit>=1.36
+streamlit-folium>=0.23
+folium>=0.16
+pandas>=2.2
+
+# Not needed by the MVP yet, but next to be added when real vector data
+# (ward boundaries, drain networks) comes in:
+# geopandas>=0.14
+# shapely>=2.0
+
+# For the future satellite / IMD rainfall raster pipeline:
+# rasterio>=1.3
+# xarray>=2024.3
+# rioxarray>=0.15
+
+# For the future FastAPI + PostGIS service:
+# fastapi>=0.111
+# uvicorn>=0.30
+# sqlalchemy>=2.0
+# geoalchemy2>=0.15
+# psycopg2-binary>=2.9
